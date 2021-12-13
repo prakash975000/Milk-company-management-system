@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#sidebar{
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	left: -20%;
+	background-color: black;
+}
+#sidebar a{
+	text-decoration: none;
+	color: white;
+}
+#sidebar a:hover{
+	color: cyan;
+}
+#sidebar li{
+	font-size: 19px;
+	font-weight: bold;
+	padding: 40px;
+	border-bottom: 2px solid grey;
+	text-align: center;
+
+}
+.toggle-btn{
+	position: absolute;
+	left: 101%;
+	top:5px;
+}
+.toggle-btn span{
+	display: block;
+	background-color: black;
+	width: 30px;
+	height:5px;
+	margin: 3px;
+}
+
+#sidebar.active 
+{
+	left: 0;
+
+}
+.report{
+	margin-top: 10%;
+	text-align: center;
+}
+.report a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px;
+}
+.report a:hover{
+	background- color:lime;
+}

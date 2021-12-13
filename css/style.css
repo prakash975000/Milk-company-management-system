@@ -1,0 +1,45 @@
+body {
+	
+}
+.header {
+	background-color: black;
+	overflow: hidden;
+	padding: 20px 20px;
+	height: 40px;
+	width: 100%;
+	margin: 0;
+}
+.header a {
+	text-decoration: none;
+	padding: 10px;
+	float: right;
+	color:white;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;	
+}
+
+.form-element {
+	text-align: center;
+	font-weight: 10px;
+	padding: 10px;
+
+} 
+.header a:hover {
+	color:cyan;
+}
+.header1 {
+	margin: 0px;
+	text-align: center;
+	padding: 20px;
+}
+.header1 a {
+	text-decoration: none;
+	
+	color:black;
+	font-weight: bold;
+	line-height: 28px;
+}
+.header1 a:hover {
+	background-color:white;
+}

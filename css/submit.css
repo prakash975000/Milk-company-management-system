@@ -1,0 +1,11 @@
+.su{
+	padding: 10px 30px;
+	font-size: 15px;
+	cursor: pointer;
+    background:linear-gradient(to right,#228B22,lime);
+    border:0;
+    outline: none;
+    border-radius: 35px;
+    color: black;
+    font-weight: bold;
+}
